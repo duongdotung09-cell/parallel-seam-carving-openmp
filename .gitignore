@@ -1,0 +1,24 @@
+# Build
+build/
+cmake-build-*/
+*.exe
+*.o
+*.obj
+*.a
+*.dll
+
+# Kết quả sinh ra
+results/*.png
+results/*.csv
+data/generated/
+out/
+
+# Tài liệu nặng / có bản quyền (xem link trong PLAN.md)
+*.pdf
+
+# Công cụ, IDE
+.deepeval/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
